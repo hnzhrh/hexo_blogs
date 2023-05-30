@@ -116,6 +116,7 @@ git push
 
 修改 `~/.bashrc` 添加别名：`alias deploy_blogs='sh ~/deploy_blogs.sh'`
 
+Demo：`deploy_blogs ./Obsidian\ +\ GitHub\ +\ Hexo\ 笔记博客工作流搭建.md Obsidian_GitHub_Hexo_notes_blogs_workflow.md`
 
 # 参考资料
 * [Github Actions自动部署hexo博客到阿里云OSS - 掘金](https://juejin.cn/post/6987568619739676708)
