@@ -83,8 +83,6 @@ hexo server #本地调试，端口4000
 # 安装 `hexo-theme-aurora` 主题
 根据官网进行配置，删除一些不需要的组件，有个坑就是评论模块，需要改下代码，配置静态资源压缩，尽量减少传输文件的大小。
 
-部署到阿里云 `OSS` 又发现了个坑，需要修改 `_config.yml` 中的 `permalink: /post/:title` ，不能有 `.html` 后缀。
-
 # 同步到 `Github`  从仓库
 
 `GitHub` 建立仓库，把本地 `Hexo` 根目录整个推送上去，注意删掉 `.gitignore` 文件的内容。
